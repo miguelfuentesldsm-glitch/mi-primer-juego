@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50; /* verde */
+}
+
+#lobby {
+    display: block; /* Debe estar visible al cargar para que el usuario vea el botón */
+    text-align: center;
+    color: white;
+    z-index: 10;
+}
+#game-canvas {
+    position: absolute;
+    top: 300;
+    left: 300;
+    width: 100%;
+    height: 100%;
+}
